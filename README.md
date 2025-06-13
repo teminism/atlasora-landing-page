@@ -36,7 +36,7 @@ AtlasOra is a property management and booking platform. This landing page highli
 [Live Demo on Vercel](https://atlasora-landing-page-hfwyryozp-temidayo-agbeniyis-projects.vercel.app/)
 
 ## 🖼 Screenshots
-![Demo](public/screenrecording.gif)
+![Demo](public/demo_screen_recording.gif)
 
 ---
 
