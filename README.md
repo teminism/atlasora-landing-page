@@ -33,7 +33,7 @@ AtlasOra is a property management and booking platform. This landing page highli
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🌍 Live Demo
-[Live Demo on Vercel](https://your-vercel-link.vercel.app/)
+[Live Demo on Vercel](https://atlasora-landing-page-hfwyryozp-temidayo-agbeniyis-projects.vercel.app/)
 
 ## 🖼 Screenshots
 ![Demo](public/screenrecording.gif)
