@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: #189CE6;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.25em 1em;
+  letter-spacing: -0.03em;
+  font-family: 'Cabinet Grotesk', Arial, sans-serif;
+}
+
+.logoImg {
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
+.logoText {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Cabinet Grotesk', Arial, sans-serif;
+  background: linear-gradient(90deg, #074E93, #179BE7, #38B2E9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.03em;
+  display: block;
+}
+
+.nav {
+  display: flex;
+  gap: 2.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.link {
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.link:hover {
+  color: #189CE6;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.signIn {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.signIn:hover {
+  background: #f1f5f9;
+}
+
+.getStarted {
+  background: #189CE6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  transition: background 0.2s;
+  margin-left: 0.5rem;
+}
+.getStarted:hover {
+  background: #074E93;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  .nav {
+    margin: 0.5rem 0;
+    gap: 1.2rem;
+  }
+  .actions {
+    justify-content: flex-end;
+  }
+} 
