@@ -2,11 +2,19 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import Home from '../page'
 
 // Mock Framer Motion
-jest.mock('framer-motion', () => ({
-  motion: {
-    div: ({ children }) => <div>{children}</div>,
-  },
-}))
+jest.mock('framer-motion', () => {
+  const passthrough = (Tag = 'div') =>
+    // eslint-disable-next-line react/display-name
+    ({ children, ...rest }) => <Tag {...rest}>{children}</Tag>;
+  return {
+    motion: new Proxy(
+      {},
+      {
+        get: (_, prop) => passthrough(prop),
+      },
+    ),
+  };
+});
 
 describe('Home', () => {
   beforeEach(() => {

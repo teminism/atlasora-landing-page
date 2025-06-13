@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Revolutionise Your Booking Experience",
+    "subtitle": "Connect hosts and guests with confidence. Experience seamless bookings, instant payouts, and industry-leading safety features.",
+    "cta": {
+      "primary": "Start Hosting Today",
+      "secondary": "Explore Properties"
+    }
+  },
+  "analytics": {
+    "alt": "Analytics dashboard illustration"
+  },
+  "whyChoose": {
+    "title": "Why Choose AtlasOra?",
+    "subtitle": "We've built the most advanced booking platform with features that matter to both hosts and guests.",
+    "cards": {
+      "fees": {
+        "title": "Only 5% Booking Fees",
+        "description": "Keep more of your earnings with industry-low fees. No hidden charges, no surprises – just transparent, fair pricing for everyone.",
+        "link": "Learn More →"
+      },
+      "payouts": {
+        "title": "Instant Payouts",
+        "description": "Get paid immediately after checkout. No waiting periods, no delays – your money is available when you need it.",
+        "link": "Learn More →"
+      },
+      "shield": {
+        "title": "Check-in Shield",
+        "description": "Advanced verification and safety protocols protect both hosts and guests. Book with confidence, host with peace of mind.",
+        "link": "Learn More →"
+      }
+    }
+  },
+  "stats": {
+    "properties": "Properties Listed",
+    "hosts": "Happy Hosts",
+    "bookings": "Bookings Completed",
+    "satisfaction": "Satisfaction Rate"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Get the latest updates, tips, and exclusive offers delivered to your inbox.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "header": {
+    "logo": "AtlasOra",
+    "nav": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "actions": {
+      "signIn": "Sign In",
+      "getStarted": "Get Started"
+    }
+  }
+} 

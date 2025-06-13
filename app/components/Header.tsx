@@ -1,18 +1,22 @@
+'use client';
+import '../i18n';
 import styles from './Header.module.css';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const { t } = useTranslation();
   return (
     <header className={styles.header}>
-      <div className={styles.logoText}>AtlasOra</div>
+      <div className={styles.logoText}>{t('header.logo')}</div>
       <nav className={styles.nav}>
-        <a href="#" className={styles.link}>Features</a>
-        <a href="#" className={styles.link}>Pricing</a>
-        <a href="#" className={styles.link}>About</a>
-        <a href="#" className={styles.link}>Contact</a>
+        <a href="#" className={styles.link}>{t('header.nav.features')}</a>
+        <a href="#" className={styles.link}>{t('header.nav.pricing')}</a>
+        <a href="#" className={styles.link}>{t('header.nav.about')}</a>
+        <a href="#" className={styles.link}>{t('header.nav.contact')}</a>
       </nav>
       <div className={styles.actions}>
-        <a href="#" className={styles.signIn}>Sign In</a>
-        <a href="#" className={styles.getStarted}>Get Started</a>
+        <a href="#" className={styles.signIn}>{t('header.actions.signIn')}</a>
+        <a href="#" className={styles.getStarted}>{t('header.actions.getStarted')}</a>
       </div>
     </header>
   );
