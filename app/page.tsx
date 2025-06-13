@@ -31,7 +31,11 @@ export default function Home() {
         {/* Analytics Image Placeholder */}
         <section className={styles.analyticsSection}>
           <div className={styles.analyticsImage}>
-            <span className={styles.analyticsPlaceholder}>[ Analytics Image Placeholder ]</span>
+          <img
+            src="/dashboard.svg"
+            alt="Analytics dashboard illustration"
+            className={styles.analyticsImage}
+          />
           </div>
         </section>
 
